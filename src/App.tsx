@@ -1,14 +1,14 @@
-
-import './App.css'
+import { Outlet } from "react-router";
+import "./App.css";
+import Navbar from "./components/layout/Navbar";
 
 function App() {
-
-
-  return (
-    <>
-     <h1>Learning RTK query</h1>
-    </>
-  )
+    return (
+        <>
+            <Navbar></Navbar>
+            <Outlet></Outlet>
+        </>
+    );
 }
 
-export default App
+export default App;
