@@ -14,13 +14,13 @@ export default function Navbar() {
           </Link>
         </li>
         <li>
-          <Link to="/about" className="hover:text-amber-400 transition">
-            About
+          <Link to="/editPost" className="hover:text-amber-400 transition">
+            Edit
           </Link>
         </li>
         <li>
-          <Link to="/posts" className="hover:text-amber-400 transition">
-            Posts
+          <Link to="/createPost" className="hover:text-amber-400 transition">
+            Post
           </Link>
         </li>
       </ul>
